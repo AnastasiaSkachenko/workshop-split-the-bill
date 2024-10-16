@@ -10,7 +10,9 @@ Extra: Ta hand om resten och visa hur mycket som skänktes till välgörenhet.
 
 Diskutera i teamet:
 
-* Vad är addEventListener?
+* Vad är DOM:en?
+* Hur refererar man till ett element i DOM m.h.a id?
+* Vad gör  addEventListener?
 * Hur submittar man ett formulär med addEventListener, samt att man står kvar på sidan och inte dirigeras om?
 * Hur kan man konvertera text till nummer?
 * Hur kan man dölja och visa ett element utifrån villkor i ett Javascript?
