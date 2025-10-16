@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  href="./style.css" rel="stylesheet"/>
+    <title>Split note</title>
+</head>
+<body>
+    <form> 
+        <h1>Splitta notan</h1>
+        <div> 
+            <label>Antal vanner</label>
+            <input id="friends" type="number"/>
+        </div>
+        <div> 
+            <label>Totalsumma</label>
+            <input id="total" type="number"/>
+        </div>
+        <div> 
+            <label>Dricks</label>
+            <input id="tips" type="number"/>
+        </div>
+        <button id="buttonA" type="button">Berakna</button>
+    </form>
+    <div>
+        <h1>Splitta notan</h1>
+        <p>Varje person ska betala:</p>
+        <p id="to-pay"> </p>
+        <p>Restaransw skanks till valdgorenhet</p>
+        <p id="rest"> </p>
+    </div>
+    <script src="./note.js"></script>
+
+</body>
+</html>
